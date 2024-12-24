@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b0m2251f836v5"
+path="res://.godot/imported/doodle - Zachz Winner.mp3-bfa904f4972104cb7d3fda2d75ed4a86.mp3str"
+
+[deps]
+
+source_file="res://doodle - Zachz Winner.mp3"
+dest_files=["res://.godot/imported/doodle - Zachz Winner.mp3-bfa904f4972104cb7d3fda2d75ed4a86.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,36 @@
+[gd_scene load_steps=5 format=3 uid="uid://b6h4uqqlprq8t"]
+
+[ext_resource type="Script" path="res://boss.gd" id="1_ousus"]
+[ext_resource type="Texture2D" uid="uid://cgbmn2i6le7nu" path="res://icon.svg" id="2_ah00u"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ygr3n"]
+size = Vector2(124, 126)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_w385b"]
+size = Vector2(18, 118)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+script = ExtResource("1_ousus")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(0, -1)
+shape = SubResource("RectangleShape2D_ygr3n")
+
+[node name="Area2D" type="Area2D" parent="StaticBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D/Area2D"]
+position = Vector2(-74, -1)
+shape = SubResource("RectangleShape2D_w385b")
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D"]
+texture = ExtResource("2_ah00u")
+
+[node name="Marker2D" type="Marker2D" parent="."]
+position = Vector2(1, -119)
+
+[node name="Marker2D2" type="Marker2D" parent="."]
+position = Vector2(2, 94)
+
+[connection signal="area_entered" from="StaticBody2D/Area2D" to="StaticBody2D" method="_on_area_2d_area_entered"]

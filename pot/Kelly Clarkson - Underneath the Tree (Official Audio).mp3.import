@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cevkwbub4rni4"
+path="res://.godot/imported/Kelly Clarkson - Underneath the Tree (Official Audio).mp3-ee84be9d0e86d3228b378691d57860fa.mp3str"
+
+[deps]
+
+source_file="res://Kelly Clarkson - Underneath the Tree (Official Audio).mp3"
+dest_files=["res://.godot/imported/Kelly Clarkson - Underneath the Tree (Official Audio).mp3-ee84be9d0e86d3228b378691d57860fa.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
