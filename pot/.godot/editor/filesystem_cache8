@@ -1,0 +1,14 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1735187231
+area_2d.gd::GDScript::-1::1735187191::0::1::::<>Area2D<>::
+audio_stream_player_2d.gd::GDScript::-1::1735187191::0::1::::<>AudioStreamPlayer<>::
+b oos_1.tscn::PackedScene::4578522855029844237::1735187191::0::1::::<><>::res://boss.gd<>uid://cgbmn2i6le7nu::::res://icon.svg
+boss.gd::GDScript::-1::1735187191::0::1::::<>StaticBody2D<>::
+boss.tscn::PackedScene::7747267255245209251::1735187191::0::1::::<><>::uid://cgbmn2i6le7nu::::res://icon.svg<>res://boss.gd
+bullet.tscn::PackedScene::6737583064490179350::1735187191::0::1::::<><>::res://area_2d.gd<>uid://cgbmn2i6le7nu::::res://icon.svg
+character_body_2d.gd::GDScript::-1::1735187191::0::1::::<>CharacterBody2D<>::
+doodle - Zachz Winner.mp3::AudioStreamMP3::4167603499070587124::1735187191::1735187232::1::::<><>::
+icon.svg::CompressedTexture2D::5196792058114699134::1735187191::1735187232::1::::<><>::
+Kelly Clarkson - Underneath the Tree (Official Audio).mp3::AudioStreamMP3::5097595215671470425::1735187191::1735187232::1::::<><>::
+level.gd::GDScript::-1::1735187191::0::1::::<>Node2D<>::
+level.tscn::PackedScene::3874902185665518223::1735187191::0::1::::<><>::res://level.gd<>uid://cgbmn2i6le7nu::::res://icon.svg<>res://character_body_2d.gd<>uid://b6h4uqqlprq8t::::res://b oos_1.tscn<>uid://b0m2251f836v5::::res://doodle - Zachz Winner.mp3<>res://audio_stream_player_2d.gd<>uid://cevkwbub4rni4::::res://Kelly Clarkson - Underneath the Tree (Official Audio).mp3
